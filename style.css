@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.books{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5vw;
+    padding: 10px 5px;
+    flex-direction: column;
+    text-align: center;
+    gap: 5vw;
+}
+
+#js-btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 18px;
+}
+
+#py-btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 18px;
+}
+
+#rct-btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 18px;
+}
+
+#nd-btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 18px;
+}
+
+.mybooks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vw;
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 30vw;
+    font-size: 2.25em;
+}
